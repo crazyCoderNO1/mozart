@@ -16,6 +16,9 @@
 		22769ABA1E4BE893006BF162 /* mozartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769AB91E4BE893006BF162 /* mozartUITests.swift */; };
 		22769AC81E4BE959006BF162 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 22769AC71E4BE959006BF162 /* Podfile */; };
 		22769ACA1E4BE9ED006BF162 /* MyFirstSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769AC91E4BE9ED006BF162 /* MyFirstSpec.swift */; };
+		22769ACC1E4BF0FE006BF162 /* ViewHelperSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769ACB1E4BF0FE006BF162 /* ViewHelperSpec.swift */; };
+		22769ACE1E4BF151006BF162 /* VirtualGuitarSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769ACD1E4BF151006BF162 /* VirtualGuitarSpec.swift */; };
+		22769AD01E4BF18B006BF162 /* MicServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769ACF1E4BF18B006BF162 /* MicServiceSpec.swift */; };
 		2337532F5CC021C96A4A07D5 /* Pods_mozart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB838538BA7CAB01008F6D7 /* Pods_mozart.framework */; };
 		D61A7CD81A3C1EC21887A929 /* Pods_mozartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475309E05462C94FAEA69053 /* Pods_mozartUITests.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +55,9 @@
 		22769ABB1E4BE893006BF162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22769AC71E4BE959006BF162 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		22769AC91E4BE9ED006BF162 /* MyFirstSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFirstSpec.swift; sourceTree = "<group>"; };
+		22769ACB1E4BF0FE006BF162 /* ViewHelperSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewHelperSpec.swift; sourceTree = "<group>"; };
+		22769ACD1E4BF151006BF162 /* VirtualGuitarSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualGuitarSpec.swift; sourceTree = "<group>"; };
+		22769ACF1E4BF18B006BF162 /* MicServiceSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicServiceSpec.swift; sourceTree = "<group>"; };
 		3CF34B9E8F08B2ADED264384 /* Pods-mozartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mozartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mozartTests/Pods-mozartTests.debug.xcconfig"; sourceTree = "<group>"; };
 		475309E05462C94FAEA69053 /* Pods_mozartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mozartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2F79FEB8D789937C06ADCF /* Pods-mozartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mozartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mozartTests/Pods-mozartTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +138,9 @@
 				22769AAE1E4BE893006BF162 /* mozartTests.swift */,
 				22769AB01E4BE893006BF162 /* Info.plist */,
 				22769AC91E4BE9ED006BF162 /* MyFirstSpec.swift */,
+				22769ACB1E4BF0FE006BF162 /* ViewHelperSpec.swift */,
+				22769ACD1E4BF151006BF162 /* VirtualGuitarSpec.swift */,
+				22769ACF1E4BF18B006BF162 /* MicServiceSpec.swift */,
 			);
 			path = mozartTests;
 			sourceTree = "<group>";
@@ -461,8 +470,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22769AD01E4BF18B006BF162 /* MicServiceSpec.swift in Sources */,
 				22769AAF1E4BE893006BF162 /* mozartTests.swift in Sources */,
 				22769ACA1E4BE9ED006BF162 /* MyFirstSpec.swift in Sources */,
+				22769ACE1E4BF151006BF162 /* VirtualGuitarSpec.swift in Sources */,
+				22769ACC1E4BF0FE006BF162 /* ViewHelperSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
