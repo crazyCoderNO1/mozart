@@ -7,20 +7,32 @@
 //
 import Quick
 import Nimble
+@testable import mozart
 
 class VirtualGuitarSpec : QuickSpec {
     override func spec() {
         super.spec()
         describe("#get frequency for string") {
-            it("return the correct frequency for string") {
-                let implemented = false
-                expect(implemented).to(beTrue())
+            it("returns 110.00 for A2 String") {
+                let vg = VirtualGuitar()
+                let result = vg.getFrequencyForString(input: VirtualGuitar.GuitarString.A2)
+                expect(result).to(equal(110.00))
             }
         }
-        describe("#get closest string") {
-            it("return the closest string with a given frequency") {
-                let implemented = false
-                expect(implemented).to(beTrue())
+        describe("#getClosestString") {
+            it("should return G3 when input is 195.00") {
+                let input = 195.00
+                let vg = VirtualGuitar()
+                let result = vg.getClosestString(input: input)
+                let expected = VirtualGuitar.GuitarString.G3
+                expect(result).to(equal(expected))
+            }
+            it("should return E4 when input is 330.00") {
+                let input = 330.00
+                let vg = VirtualGuitar()
+                let result = vg.getClosestString(input: input)
+                let expected = VirtualGuitar.GuitarString.E4
+                expect(result).to(equal(expected))
             }
         }
     }
