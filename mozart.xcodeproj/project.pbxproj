@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22769A9D1E4BE892006BF162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769A9C1E4BE892006BF162 /* AppDelegate.swift */; };
+		22769A9F1E4BE892006BF162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769A9E1E4BE892006BF162 /* ViewController.swift */; };
+		22769AA11E4BE892006BF162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22769AA01E4BE892006BF162 /* Assets.xcassets */; };
+		22769AA41E4BE892006BF162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22769AA21E4BE892006BF162 /* Main.storyboard */; };
+		22769AAF1E4BE893006BF162 /* mozartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769AAE1E4BE893006BF162 /* mozartTests.swift */; };
+		22769ABA1E4BE893006BF162 /* mozartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769AB91E4BE893006BF162 /* mozartUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22769AAB1E4BE892006BF162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22769A911E4BE892006BF162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22769A981E4BE892006BF162;
+			remoteInfo = mozart;
+		};
+		22769AB61E4BE893006BF162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22769A911E4BE892006BF162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22769A981E4BE892006BF162;
+			remoteInfo = mozart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22769A991E4BE892006BF162 /* mozart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mozart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22769A9C1E4BE892006BF162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22769A9E1E4BE892006BF162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22769AA01E4BE892006BF162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22769AA31E4BE892006BF162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22769AA51E4BE892006BF162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22769AAA1E4BE892006BF162 /* mozartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mozartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22769AAE1E4BE893006BF162 /* mozartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mozartTests.swift; sourceTree = "<group>"; };
+		22769AB01E4BE893006BF162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22769AB51E4BE893006BF162 /* mozartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mozartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22769AB91E4BE893006BF162 /* mozartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mozartUITests.swift; sourceTree = "<group>"; };
+		22769ABB1E4BE893006BF162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22769A961E4BE892006BF162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22769AA71E4BE892006BF162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22769AB21E4BE893006BF162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22769A901E4BE892006BF162 = {
+			isa = PBXGroup;
+			children = (
+				22769A9B1E4BE892006BF162 /* mozart */,
+				22769AAD1E4BE892006BF162 /* mozartTests */,
+				22769AB81E4BE893006BF162 /* mozartUITests */,
+				22769A9A1E4BE892006BF162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22769A9A1E4BE892006BF162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22769A991E4BE892006BF162 /* mozart.app */,
+				22769AAA1E4BE892006BF162 /* mozartTests.xctest */,
+				22769AB51E4BE893006BF162 /* mozartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22769A9B1E4BE892006BF162 /* mozart */ = {
+			isa = PBXGroup;
+			children = (
+				22769A9C1E4BE892006BF162 /* AppDelegate.swift */,
+				22769A9E1E4BE892006BF162 /* ViewController.swift */,
+				22769AA01E4BE892006BF162 /* Assets.xcassets */,
+				22769AA21E4BE892006BF162 /* Main.storyboard */,
+				22769AA51E4BE892006BF162 /* Info.plist */,
+			);
+			path = mozart;
+			sourceTree = "<group>";
+		};
+		22769AAD1E4BE892006BF162 /* mozartTests */ = {
+			isa = PBXGroup;
+			children = (
+				22769AAE1E4BE893006BF162 /* mozartTests.swift */,
+				22769AB01E4BE893006BF162 /* Info.plist */,
+			);
+			path = mozartTests;
+			sourceTree = "<group>";
+		};
+		22769AB81E4BE893006BF162 /* mozartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22769AB91E4BE893006BF162 /* mozartUITests.swift */,
+				22769ABB1E4BE893006BF162 /* Info.plist */,
+			);
+			path = mozartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22769A981E4BE892006BF162 /* mozart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22769ABE1E4BE893006BF162 /* Build configuration list for PBXNativeTarget "mozart" */;
+			buildPhases = (
+				22769A951E4BE892006BF162 /* Sources */,
+				22769A961E4BE892006BF162 /* Frameworks */,
+				22769A971E4BE892006BF162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mozart;
+			productName = mozart;
+			productReference = 22769A991E4BE892006BF162 /* mozart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22769AA91E4BE892006BF162 /* mozartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22769AC11E4BE893006BF162 /* Build configuration list for PBXNativeTarget "mozartTests" */;
+			buildPhases = (
+				22769AA61E4BE892006BF162 /* Sources */,
+				22769AA71E4BE892006BF162 /* Frameworks */,
+				22769AA81E4BE892006BF162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22769AAC1E4BE892006BF162 /* PBXTargetDependency */,
+			);
+			name = mozartTests;
+			productName = mozartTests;
+			productReference = 22769AAA1E4BE892006BF162 /* mozartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22769AB41E4BE893006BF162 /* mozartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22769AC41E4BE893006BF162 /* Build configuration list for PBXNativeTarget "mozartUITests" */;
+			buildPhases = (
+				22769AB11E4BE893006BF162 /* Sources */,
+				22769AB21E4BE893006BF162 /* Frameworks */,
+				22769AB31E4BE893006BF162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22769AB71E4BE893006BF162 /* PBXTargetDependency */,
+			);
+			name = mozartUITests;
+			productName = mozartUITests;
+			productReference = 22769AB51E4BE893006BF162 /* mozartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22769A911E4BE892006BF162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "David Kwok Ho Chan";
+				TargetAttributes = {
+					22769A981E4BE892006BF162 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J9T57DG7T3;
+						ProvisioningStyle = Automatic;
+					};
+					22769AA91E4BE892006BF162 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J9T57DG7T3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22769A981E4BE892006BF162;
+					};
+					22769AB41E4BE893006BF162 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J9T57DG7T3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22769A981E4BE892006BF162;
+					};
+				};
+			};
+			buildConfigurationList = 22769A941E4BE892006BF162 /* Build configuration list for PBXProject "mozart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22769A901E4BE892006BF162;
+			productRefGroup = 22769A9A1E4BE892006BF162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22769A981E4BE892006BF162 /* mozart */,
+				22769AA91E4BE892006BF162 /* mozartTests */,
+				22769AB41E4BE893006BF162 /* mozartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22769A971E4BE892006BF162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22769AA11E4BE892006BF162 /* Assets.xcassets in Resources */,
+				22769AA41E4BE892006BF162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22769AA81E4BE892006BF162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22769AB31E4BE893006BF162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22769A951E4BE892006BF162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22769A9F1E4BE892006BF162 /* ViewController.swift in Sources */,
+				22769A9D1E4BE892006BF162 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22769AA61E4BE892006BF162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22769AAF1E4BE893006BF162 /* mozartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22769AB11E4BE893006BF162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22769ABA1E4BE893006BF162 /* mozartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22769AAC1E4BE892006BF162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22769A981E4BE892006BF162 /* mozart */;
+			targetProxy = 22769AAB1E4BE892006BF162 /* PBXContainerItemProxy */;
+		};
+		22769AB71E4BE893006BF162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22769A981E4BE892006BF162 /* mozart */;
+			targetProxy = 22769AB61E4BE893006BF162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22769AA21E4BE892006BF162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22769AA31E4BE892006BF162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22769ABC1E4BE893006BF162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22769ABD1E4BE893006BF162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		22769ABF1E4BE893006BF162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J9T57DG7T3;
+				INFOPLIST_FILE = mozart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geniemedialabs.mozart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		22769AC01E4BE893006BF162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J9T57DG7T3;
+				INFOPLIST_FILE = mozart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geniemedialabs.mozart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		22769AC21E4BE893006BF162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J9T57DG7T3;
+				INFOPLIST_FILE = mozartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geniemedialabs.mozartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mozart.app/Contents/MacOS/mozart";
+			};
+			name = Debug;
+		};
+		22769AC31E4BE893006BF162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J9T57DG7T3;
+				INFOPLIST_FILE = mozartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geniemedialabs.mozartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mozart.app/Contents/MacOS/mozart";
+			};
+			name = Release;
+		};
+		22769AC51E4BE893006BF162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J9T57DG7T3;
+				INFOPLIST_FILE = mozartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geniemedialabs.mozartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mozart;
+			};
+			name = Debug;
+		};
+		22769AC61E4BE893006BF162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J9T57DG7T3;
+				INFOPLIST_FILE = mozartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geniemedialabs.mozartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mozart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22769A941E4BE892006BF162 /* Build configuration list for PBXProject "mozart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22769ABC1E4BE893006BF162 /* Debug */,
+				22769ABD1E4BE893006BF162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22769ABE1E4BE893006BF162 /* Build configuration list for PBXNativeTarget "mozart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22769ABF1E4BE893006BF162 /* Debug */,
+				22769AC01E4BE893006BF162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22769AC11E4BE893006BF162 /* Build configuration list for PBXNativeTarget "mozartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22769AC21E4BE893006BF162 /* Debug */,
+				22769AC31E4BE893006BF162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22769AC41E4BE893006BF162 /* Build configuration list for PBXNativeTarget "mozartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22769AC51E4BE893006BF162 /* Debug */,
+				22769AC61E4BE893006BF162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22769A911E4BE892006BF162 /* Project object */;
+}
