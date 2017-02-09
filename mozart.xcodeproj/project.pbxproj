@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D079CD64B2D982F585AB980 /* Pods_mozartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C95976A1905E6A81220A1A /* Pods_mozartTests.framework */; };
 		22769A9D1E4BE892006BF162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769A9C1E4BE892006BF162 /* AppDelegate.swift */; };
 		22769A9F1E4BE892006BF162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769A9E1E4BE892006BF162 /* ViewController.swift */; };
 		22769AA11E4BE892006BF162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22769AA01E4BE892006BF162 /* Assets.xcassets */; };
 		22769AA41E4BE892006BF162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22769AA21E4BE892006BF162 /* Main.storyboard */; };
 		22769AAF1E4BE893006BF162 /* mozartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769AAE1E4BE893006BF162 /* mozartTests.swift */; };
 		22769ABA1E4BE893006BF162 /* mozartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769AB91E4BE893006BF162 /* mozartUITests.swift */; };
+		22769AC81E4BE959006BF162 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 22769AC71E4BE959006BF162 /* Podfile */; };
+		22769ACA1E4BE9ED006BF162 /* MyFirstSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769AC91E4BE9ED006BF162 /* MyFirstSpec.swift */; };
+		2337532F5CC021C96A4A07D5 /* Pods_mozart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB838538BA7CAB01008F6D7 /* Pods_mozart.framework */; };
+		D61A7CD81A3C1EC21887A929 /* Pods_mozartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475309E05462C94FAEA69053 /* Pods_mozartUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,17 @@
 		22769AB51E4BE893006BF162 /* mozartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mozartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22769AB91E4BE893006BF162 /* mozartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mozartUITests.swift; sourceTree = "<group>"; };
 		22769ABB1E4BE893006BF162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22769AC71E4BE959006BF162 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		22769AC91E4BE9ED006BF162 /* MyFirstSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFirstSpec.swift; sourceTree = "<group>"; };
+		3CF34B9E8F08B2ADED264384 /* Pods-mozartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mozartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mozartTests/Pods-mozartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		475309E05462C94FAEA69053 /* Pods_mozartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mozartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2F79FEB8D789937C06ADCF /* Pods-mozartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mozartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mozartTests/Pods-mozartTests.release.xcconfig"; sourceTree = "<group>"; };
+		4EB838538BA7CAB01008F6D7 /* Pods_mozart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mozart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BDB1B0D6C9066C5E085451 /* Pods-mozartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mozartUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mozartUITests/Pods-mozartUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B045A565C60B985FF72807CC /* Pods-mozartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mozartUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mozartUITests/Pods-mozartUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC6C2750557653B473355BFF /* Pods-mozart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mozart.release.xcconfig"; path = "Pods/Target Support Files/Pods-mozart/Pods-mozart.release.xcconfig"; sourceTree = "<group>"; };
+		BDAB9978D05AF83E512211B8 /* Pods-mozart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mozart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mozart/Pods-mozart.debug.xcconfig"; sourceTree = "<group>"; };
+		F4C95976A1905E6A81220A1A /* Pods_mozartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mozartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2337532F5CC021C96A4A07D5 /* Pods_mozart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D079CD64B2D982F585AB980 /* Pods_mozartTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61A7CD81A3C1EC21887A929 /* Pods_mozartUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +98,9 @@
 				22769AAD1E4BE892006BF162 /* mozartTests */,
 				22769AB81E4BE893006BF162 /* mozartUITests */,
 				22769A9A1E4BE892006BF162 /* Products */,
+				22769AC71E4BE959006BF162 /* Podfile */,
+				7D960526A9076F8789522677 /* Pods */,
+				E9EDBCAD9D08D24757A609CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +131,7 @@
 			children = (
 				22769AAE1E4BE893006BF162 /* mozartTests.swift */,
 				22769AB01E4BE893006BF162 /* Info.plist */,
+				22769AC91E4BE9ED006BF162 /* MyFirstSpec.swift */,
 			);
 			path = mozartTests;
 			sourceTree = "<group>";
@@ -122,6 +145,29 @@
 			path = mozartUITests;
 			sourceTree = "<group>";
 		};
+		7D960526A9076F8789522677 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDAB9978D05AF83E512211B8 /* Pods-mozart.debug.xcconfig */,
+				BC6C2750557653B473355BFF /* Pods-mozart.release.xcconfig */,
+				3CF34B9E8F08B2ADED264384 /* Pods-mozartTests.debug.xcconfig */,
+				4D2F79FEB8D789937C06ADCF /* Pods-mozartTests.release.xcconfig */,
+				B045A565C60B985FF72807CC /* Pods-mozartUITests.debug.xcconfig */,
+				95BDB1B0D6C9066C5E085451 /* Pods-mozartUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9EDBCAD9D08D24757A609CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EB838538BA7CAB01008F6D7 /* Pods_mozart.framework */,
+				F4C95976A1905E6A81220A1A /* Pods_mozartTests.framework */,
+				475309E05462C94FAEA69053 /* Pods_mozartUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22769ABE1E4BE893006BF162 /* Build configuration list for PBXNativeTarget "mozart" */;
 			buildPhases = (
+				2FAA7B6E52492884720C3BC5 /* [CP] Check Pods Manifest.lock */,
 				22769A951E4BE892006BF162 /* Sources */,
 				22769A961E4BE892006BF162 /* Frameworks */,
 				22769A971E4BE892006BF162 /* Resources */,
+				6251DE4D5D5733E81091F673 /* [CP] Embed Pods Frameworks */,
+				332CE0BD0D675B3F6B7435BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22769AC11E4BE893006BF162 /* Build configuration list for PBXNativeTarget "mozartTests" */;
 			buildPhases = (
+				D4E7EF0AAA29DA8FC77586A2 /* [CP] Check Pods Manifest.lock */,
 				22769AA61E4BE892006BF162 /* Sources */,
 				22769AA71E4BE892006BF162 /* Frameworks */,
 				22769AA81E4BE892006BF162 /* Resources */,
+				FBA11B80157598F7565B38E0 /* [CP] Embed Pods Frameworks */,
+				5FE5083BEB77D45C78B28DE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22769AC41E4BE893006BF162 /* Build configuration list for PBXNativeTarget "mozartUITests" */;
 			buildPhases = (
+				142E5E8F600AF42ADD7416E3 /* [CP] Check Pods Manifest.lock */,
 				22769AB11E4BE893006BF162 /* Sources */,
 				22769AB21E4BE893006BF162 /* Frameworks */,
 				22769AB31E4BE893006BF162 /* Resources */,
+				51C3C3F9E9C38C7049C0C1A3 /* [CP] Embed Pods Frameworks */,
+				8CED730A8E8406776995F100 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22769AC81E4BE959006BF162 /* Podfile in Resources */,
 				22769AA11E4BE892006BF162 /* Assets.xcassets in Resources */,
 				22769AA41E4BE892006BF162 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +309,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		142E5E8F600AF42ADD7416E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2FAA7B6E52492884720C3BC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		332CE0BD0D675B3F6B7435BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mozart/Pods-mozart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51C3C3F9E9C38C7049C0C1A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mozartUITests/Pods-mozartUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FE5083BEB77D45C78B28DE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mozartTests/Pods-mozartTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6251DE4D5D5733E81091F673 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mozart/Pods-mozart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CED730A8E8406776995F100 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mozartUITests/Pods-mozartUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4E7EF0AAA29DA8FC77586A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBA11B80157598F7565B38E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mozartTests/Pods-mozartTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22769A951E4BE892006BF162 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22769AAF1E4BE893006BF162 /* mozartTests.swift in Sources */,
+				22769ACA1E4BE9ED006BF162 /* MyFirstSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +593,7 @@
 		};
 		22769ABF1E4BE893006BF162 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDAB9978D05AF83E512211B8 /* Pods-mozart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -412,6 +608,7 @@
 		};
 		22769AC01E4BE893006BF162 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6C2750557653B473355BFF /* Pods-mozart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -426,6 +623,7 @@
 		};
 		22769AC21E4BE893006BF162 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF34B9E8F08B2ADED264384 /* Pods-mozartTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -442,6 +640,7 @@
 		};
 		22769AC31E4BE893006BF162 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D2F79FEB8D789937C06ADCF /* Pods-mozartTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +657,7 @@
 		};
 		22769AC51E4BE893006BF162 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B045A565C60B985FF72807CC /* Pods-mozartUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -473,6 +673,7 @@
 		};
 		22769AC61E4BE893006BF162 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95BDB1B0D6C9066C5E085451 /* Pods-mozartUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -505,6 +706,7 @@
 				22769AC01E4BE893006BF162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22769AC11E4BE893006BF162 /* Build configuration list for PBXNativeTarget "mozartTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +715,7 @@
 				22769AC31E4BE893006BF162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22769AC41E4BE893006BF162 /* Build configuration list for PBXNativeTarget "mozartUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +724,7 @@
 				22769AC61E4BE893006BF162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
