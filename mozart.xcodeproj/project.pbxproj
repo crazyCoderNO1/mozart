@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D079CD64B2D982F585AB980 /* Pods_mozartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C95976A1905E6A81220A1A /* Pods_mozartTests.framework */; };
 		221BB0BD1E4D0864002AECF9 /* VirtualGuitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BB0BC1E4D0864002AECF9 /* VirtualGuitar.swift */; };
+		221BB0BF1E4D27AE002AECF9 /* MicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221BB0BE1E4D27AE002AECF9 /* MicService.swift */; };
 		22769A9D1E4BE892006BF162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769A9C1E4BE892006BF162 /* AppDelegate.swift */; };
 		22769A9F1E4BE892006BF162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22769A9E1E4BE892006BF162 /* ViewController.swift */; };
 		22769AA11E4BE892006BF162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22769AA01E4BE892006BF162 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		221BB0BC1E4D0864002AECF9 /* VirtualGuitar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualGuitar.swift; sourceTree = "<group>"; };
+		221BB0BE1E4D27AE002AECF9 /* MicService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicService.swift; sourceTree = "<group>"; };
 		22769A991E4BE892006BF162 /* mozart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mozart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22769A9C1E4BE892006BF162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22769A9E1E4BE892006BF162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				22769AA21E4BE892006BF162 /* Main.storyboard */,
 				22769AA51E4BE892006BF162 /* Info.plist */,
 				221BB0BC1E4D0864002AECF9 /* VirtualGuitar.swift */,
+				221BB0BE1E4D27AE002AECF9 /* MicService.swift */,
 			);
 			path = mozart;
 			sourceTree = "<group>";
@@ -465,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22769A9F1E4BE892006BF162 /* ViewController.swift in Sources */,
+				221BB0BF1E4D27AE002AECF9 /* MicService.swift in Sources */,
 				221BB0BD1E4D0864002AECF9 /* VirtualGuitar.swift in Sources */,
 				22769A9D1E4BE892006BF162 /* AppDelegate.swift in Sources */,
 			);
